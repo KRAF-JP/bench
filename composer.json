@@ -1,0 +1,21 @@
+{
+    "name": "krafjp/bench",
+    "description": "simple reporting for console.",
+    "keywords": ["consle", "memomory", "reporter"],
+    "homepage": "https://github.com/KRAF-JP/bench",
+    "authors": [
+        {
+            "name": "shinji.oda",
+            "homepage": "https://kraf.jp/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Krafjp\\Bench\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0.0"
+    }
+}
