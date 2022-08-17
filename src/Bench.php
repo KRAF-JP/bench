@@ -60,4 +60,68 @@ class Bench
 
         return $report;
     }
+
+    /**
+     * @return float
+     */
+    public function getStart(): float
+    {
+        return $this->start;
+    }
+
+    /**
+     * @param float $start
+     */
+    public function setStart(float $start): void
+    {
+        $this->start = $start;
+    }
+
+    /**
+     * @return int
+     */
+    public function getUpdateCount(): int
+    {
+        return $this->updateCount;
+    }
+
+    /**
+     * @param int $updateCount
+     */
+    public function setUpdateCount(int $updateCount): void
+    {
+        $this->updateCount = $updateCount;
+    }
+
+    /**
+     * @return int
+     */
+    public function getInsertCount(): int
+    {
+        return $this->insertCount;
+    }
+
+    /**
+     * @param int $insertCount
+     */
+    public function setInsertCount(int $insertCount): void
+    {
+        $this->insertCount = $insertCount;
+    }
+
+    /**
+     * @return int
+     */
+    public function getCount(): int
+    {
+        return $this->count;
+    }
+
+    /**
+     * @param int $count
+     */
+    public function setCount(int $count): void
+    {
+        $this->count = $count;
+    }
 }
